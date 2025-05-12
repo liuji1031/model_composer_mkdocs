@@ -44,7 +44,6 @@ To use the visualization tool, you need to provide a valid YAML file (or a main 
           - module_3
     ```
 
-!!! example "Rendered architecture for the toy example"
     ![toy_example](assets/toy_example.svg){width=100%}
     /// caption
     Architecture of the toy example neural network. 
@@ -111,9 +110,9 @@ The YAML file for ***CM*** contains the following fields:
 ### 2.4 Real-world example
 The example below shows how to define an real-world architecture, i.e., an inception block (3a) from the GoogLeNet, using the ***CM*** format. 
 
-The parsing relies on the `OmegaConf` library, which allows for easy interpolation of the parameters. Note the additional ***hyper_params*** section, which is helpful for defining all other inception blocks by swapping out the values. The user can thus define any number of additional fields in the YAML file as they see fit to expand the expressivness of the YAML file. 
+The parsing relies on the `OmegaConf` library, which allows for easy interpolation of the parameters. Note the additional ***hyper_params*** section, which is helpful for defining all other inception blocks by swapping out the values. The user can thus define any number of additional fields in the YAML file as they see fit to expand the expressiveness of the YAML file. 
 
-!!! example "YAML file for Inception block"
+!!! example "YAML file for the inception block"
 
     ```yaml
     name: inception_3a
@@ -208,7 +207,7 @@ The parsing relies on the `OmegaConf` library, which allows for easy interpolati
       output:
         - concat
     ```
-!!! example "Rendered architecture"
+    
     ![inception_3a](assets/inception_3a.svg){width=100%}
     /// caption
     Architecture of the Inception block from the GoogLeNet. 

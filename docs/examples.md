@@ -413,7 +413,7 @@ This example showcase how to use the YAML format to create a more complex archit
     Architecture diagram of the GoogLeNet inception_3a example.
     ///
 
-!!! example "GoogLeNet inception_4a YAML file"
+!!! example "GoogLeNet auxiliary classifier YAML file"
 
     ```yaml
     name: auxiliary_classifier_4a
