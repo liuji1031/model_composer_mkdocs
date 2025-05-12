@@ -1,0 +1,22 @@
+site_name: Model Composer and Visualizer
+site_url: https://sitename.example
+repo_url: https://github.com/liuji1031/model_composer
+repo_name: liuji1031/model_composer
+theme:
+  name: material
+  features:
+    - navigation.footer
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+plugins:
+  - mkdocs-video
+
+nav:
+  - index.md
+  - rationale.md
+  - examples.md

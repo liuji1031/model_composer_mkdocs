@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+  <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+  <svg xmlns="http://www.w3.org/2000/svg" width="150" height="940" viewBox="0 0 150 940">
+    <defs>
+      <!-- Define marker for arrow heads -->
+      <marker id="arrowhead" markerWidth="6" markerHeight="8" refX="0" refY="4" orient="auto">
+        <polygon points="0 0, 6 4, 0 8" fill="#555" />
+      </marker>
+    </defs>
+    <rect x="0" y="0" width="150" height="940" fill="white"/>
+    <g class="edges">
+      <path d="M75,40 C75,81.4 75,44.6 75,86" stroke="#555" stroke-width="1.5" fill="none" marker-end="url(#arrowhead)"/>
+    <path d="M75,150 C75,182.4 75,153.6 75,186" stroke="#555" stroke-width="1.5" fill="none" marker-end="url(#arrowhead)"/>
+    <path d="M75,550 C75,582.4 75,553.6 75,586" stroke="#555" stroke-width="1.5" fill="none" marker-end="url(#arrowhead)"/>
+    <path d="M75,250 C75,282.4 75,253.6 75,286" stroke="#555" stroke-width="1.5" fill="none" marker-end="url(#arrowhead)"/>
+    <path d="M75,350 C75,382.4 75,353.6 75,386" stroke="#555" stroke-width="1.5" fill="none" marker-end="url(#arrowhead)"/>
+    <path d="M75,650 C75,682.4 75,653.6 75,686" stroke="#555" stroke-width="1.5" fill="none" marker-end="url(#arrowhead)"/>
+    <path d="M75,850 C75,882.4 75,853.6 75,886" stroke="#555" stroke-width="1.5" fill="none" marker-end="url(#arrowhead)"/>
+    <path d="M75,450 C75,482.4 75,453.6 75,486" stroke="#555" stroke-width="1.5" fill="none" marker-end="url(#arrowhead)"/>
+    <path d="M75,750 C75,782.4 75,753.6 75,786" stroke="#555" stroke-width="1.5" fill="none" marker-end="url(#arrowhead)"/>
+    </g>
+    <g class="edge-labels">
+      
+    
+    
+    
+    
+    
+    
+    
+    
+    </g>
+    <g class="nodes">
+      <g transform="translate(0,100)">
+        <rect width="150" height="50" rx="5" ry="5" fill="hsl(92, 62%, 77%)" stroke="#949494" stroke-width="1"/>
+        <text x="75" y="21" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="12px" font-weight="bold" fill="#000">avgpool</text>
+        <text x="75" y="35" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="10px" fill="#000">torch.nn.AvgPool2d</text>
+        <circle cx="75" cy="0" r="4" fill="#555" stroke="white" stroke-width="1" />
+        <circle cx="75" cy="50" r="4" fill="#555" stroke="white" stroke-width="1" />
+      </g>
+    <g transform="translate(0,200)">
+        <rect width="150" height="50" rx="5" ry="5" fill="#b3d0ff" stroke="#949494" stroke-width="1"/>
+        <text x="75" y="21" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="12px" font-weight="bold" fill="#000">conv1x1</text>
+        <text x="75" y="35" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="10px" fill="#000">Conv2d</text>
+        <circle cx="75" cy="0" r="4" fill="#555" stroke="white" stroke-width="1" />
+        <circle cx="75" cy="50" r="4" fill="#555" stroke="white" stroke-width="1" />
+      </g>
+    <g transform="translate(0,600)">
+        <rect width="150" height="50" rx="5" ry="5" fill="hsl(219, 69%, 84%)" stroke="#949494" stroke-width="1"/>
+        <text x="75" y="21" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="12px" font-weight="bold" fill="#000">dropout</text>
+        <text x="75" y="35" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="10px" fill="#000">torch.nn.Dropout</text>
+        <circle cx="75" cy="0" r="4" fill="#555" stroke="white" stroke-width="1" />
+        <circle cx="75" cy="50" r="4" fill="#555" stroke="white" stroke-width="1" />
+      </g>
+    <g transform="translate(0,300)">
+        <rect width="150" height="50" rx="5" ry="5" fill="hsl(128, 58%, 83%)" stroke="#949494" stroke-width="1"/>
+        <text x="75" y="21" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="12px" font-weight="bold" fill="#000">flatten</text>
+        <text x="75" y="35" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="10px" fill="#000">torch.nn.Flatten</text>
+        <circle cx="75" cy="0" r="4" fill="#555" stroke="white" stroke-width="1" />
+        <circle cx="75" cy="50" r="4" fill="#555" stroke="white" stroke-width="1" />
+      </g>
+    <g transform="translate(0,0)">
+        <rect width="150" height="40" rx="5" ry="5" fill="#ffffff" stroke="#000000" stroke-width="1"/>
+        <text x="75" y="20" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="12px" font-weight="bold" fill="#000">input</text>
+        
+        
+        <circle cx="75" cy="40" r="4" fill="#555" stroke="white" stroke-width="1" />
+      </g>
+    <g transform="translate(0,400)">
+        <rect width="150" height="50" rx="5" ry="5" fill="hsl(31, 61%, 76%)" stroke="#949494" stroke-width="1"/>
+        <text x="75" y="21" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="12px" font-weight="bold" fill="#000">linear</text>
+        <text x="75" y="35" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="10px" fill="#000">torch.nn.Linear</text>
+        <circle cx="75" cy="0" r="4" fill="#555" stroke="white" stroke-width="1" />
+        <circle cx="75" cy="50" r="4" fill="#555" stroke="white" stroke-width="1" />
+      </g>
+    <g transform="translate(0,700)">
+        <rect width="150" height="50" rx="5" ry="5" fill="hsl(31, 61%, 76%)" stroke="#949494" stroke-width="1"/>
+        <text x="75" y="21" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="12px" font-weight="bold" fill="#000">linear_2</text>
+        <text x="75" y="35" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="10px" fill="#000">torch.nn.Linear</text>
+        <circle cx="75" cy="0" r="4" fill="#555" stroke="white" stroke-width="1" />
+        <circle cx="75" cy="50" r="4" fill="#555" stroke="white" stroke-width="1" />
+      </g>
+    <g transform="translate(0,900)">
+        <rect width="150" height="40" rx="5" ry="5" fill="#ffffff" stroke="#000000" stroke-width="1"/>
+        <text x="75" y="20" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="12px" font-weight="bold" fill="#000">output</text>
+        
+        <circle cx="75" cy="0" r="4" fill="#555" stroke="white" stroke-width="1" />
+        
+      </g>
+    <g transform="translate(0,500)">
+        <rect width="150" height="50" rx="5" ry="5" fill="hsl(128, 58%, 83%)" stroke="#949494" stroke-width="1"/>
+        <text x="75" y="21" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="12px" font-weight="bold" fill="#000">relu</text>
+        <text x="75" y="35" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="10px" fill="#000">torch.nn.ReLU</text>
+        <circle cx="75" cy="0" r="4" fill="#555" stroke="white" stroke-width="1" />
+        <circle cx="75" cy="50" r="4" fill="#555" stroke="white" stroke-width="1" />
+      </g>
+    <g transform="translate(0,800)">
+        <rect width="150" height="50" rx="5" ry="5" fill="hsl(70, 60%, 75%)" stroke="#949494" stroke-width="1"/>
+        <text x="75" y="21" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="12px" font-weight="bold" fill="#000">softmax</text>
+        <text x="75" y="35" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="10px" fill="#000">torch.nn.Softmax</text>
+        <circle cx="75" cy="0" r="4" fill="#555" stroke="white" stroke-width="1" />
+        <circle cx="75" cy="50" r="4" fill="#555" stroke="white" stroke-width="1" />
+      </g>
+    </g>
+  </svg>
