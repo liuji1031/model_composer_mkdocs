@@ -480,7 +480,7 @@ Expanding into nested ***CM***s allows the user to inspect the details of the bl
 The video below shows an example of interacting with the ***CM***s (inception blocks) in the GoogLeNet.
 !!! example "Interacting with ComposableModel"
 
-    ![type:video](assets/expand_cm_2.mp4)
+    ![type:video](assets/expand_cm.mp4)
 
 ## 4. Building the model
 Currently, PyTorch is the only supported framework for building the model. See also the [**repository**](https://github.com/liuji1031/model_composer) for more details on how to build the model from the YAML file.
